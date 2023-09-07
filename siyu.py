@@ -155,7 +155,6 @@ class BabyAGI(BaseModel):
         #  add task result to notion
 
     def print_task_ending(self):
-        # st.success("Tasks terminated.", icon="✅")
         print("***** Tasks terminated. *****")
         print("Here's the todo list: ")
         self.print_task_list()
